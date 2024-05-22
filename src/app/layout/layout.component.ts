@@ -11,12 +11,12 @@ import { SidebarComponent } from '../shared/components/sidebar/sidebar.component
   template: `
     <shared-navbar />
     <p-splitter
-      [panelSizes]="[25, 75]"
+      [panelSizes]="[15, 75]"
       [style]="{ height: '300px' }"
       styleClass="mb-5 min-h-screen"
     >
       <ng-template pTemplate>
-        <div class="col flex align-items-center justify-content-center">
+        <div class="col flex">
           <shared-sidebar />
         </div>
       </ng-template>
