@@ -5,6 +5,19 @@ export default [
   {
     path: '',
     component: LayoutComponent,
-    children: [],
+    children: [
+      {
+        path: '',
+        loadComponent: () => import('./home/home.component'),
+      },
+      {
+        path: 'products',
+        loadComponent: () => import('./products-page/products-page.component'),
+      },
+      {
+        path: '**',
+        redirectTo: '',
+      },
+    ],
   },
 ] as Routes;
