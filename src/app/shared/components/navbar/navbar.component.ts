@@ -1,12 +1,32 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MenubarModule } from 'primeng/menubar';
+import { BadgeModule } from 'primeng/badge';
+import { AvatarModule } from 'primeng/avatar';
+import { AvatarGroupModule } from 'primeng/avatargroup';
+import { CommonModule } from '@angular/common';
+import { MenuItem } from 'primeng/api';
+import { InputTextModule } from 'primeng/inputtext';
 
 @Component({
   selector: 'shared-navbar',
   standalone: true,
-  imports: [],
+  imports: [
+    MenubarModule,
+    BadgeModule,
+    AvatarModule,
+    AvatarGroupModule,
+    CommonModule,
+    InputTextModule
+  ],
   templateUrl: './navbar.component.html',
-  styles: ``
+  styles: ``,
 })
-export class NavbarComponent {
+export class NavbarComponent implements OnInit {
+  items: MenuItem[] | undefined;
 
+  ngOnInit() {
+    this.items = [
+    
+    ];
+  }
 }
