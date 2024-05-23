@@ -1,27 +1,56 @@
-# TechnicalTest
+# Gestión de productos
+_Sistema Products_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+<div align="center">
 
-## Development server
+## Comenzando... 🚀
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+<a href="https://angular.dev"><img src="https://imgs.search.brave.com/Xkj8HMVUoD9qKnH36MGpNEiLymxzP-sNmIj9bB7M6t0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL0EvYW5ndWxh/ci1sb2dvLTcwQkJF/MjIwQ0Itc2Vla2xv/Z28uY29tLnBuZw" width="400" alt="Angular Logo" /></a>
+</p>
 
-## Code scaffolding
+### Pre-requisitos 📋
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Para poder inicializar el sistema se requiere lo siguiente :_
 
-## Build
+```
+1. Git.
+2. Angular (Standalone Components).
+3. VsCode (Editor de Codigo).
+4. TypeScript & JavaScript.
+5. npm (Node Package Manager).
+6. PrimeNg, PrimeFlex.
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Clonar el Repositorio 🔧
 
-## Running unit tests
+```
+git clone https://github.com/nombregit/repo.git
+```
+```
+cd repo
+```
+#### Dentro de la raíz del proyecto ejecute el siguiente comando
+```
+npm i
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Para iniciar el servidor de Angular puede correr los siguientes comandos
+```
+npm start
+```
+```
+ng serve
+```
 
-## Running end-to-end tests
+## Autor ✒️
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Santander Jurado Walter**
 
-## Further help
+## Expresiones de Gratitud 🎁
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Comenta a otros sobre este proyecto 📢
+- Invitanos una cerveza 🍺 o un café ☕ a alguien del equipo.
+- Da las gracias públicamente 🤓.
+- etc.

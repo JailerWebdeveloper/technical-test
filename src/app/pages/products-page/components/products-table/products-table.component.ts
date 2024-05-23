@@ -17,6 +17,7 @@ import { TableModule } from 'primeng/table';
 import { TagModule } from 'primeng/tag';
 import { ToastModule } from 'primeng/toast';
 import { ToolbarModule } from 'primeng/toolbar';
+import { InputNumberModule } from 'primeng/inputnumber';
 
 
 @Component({
@@ -38,6 +39,7 @@ import { ToolbarModule } from 'primeng/toolbar';
     TagModule,
     ToastModule,
     ToolbarModule,
+    InputNumberModule,
   ],
   templateUrl: './products-table.component.html',
   styles: [
