@@ -11,9 +11,10 @@ import { SidebarComponent } from '../shared/components/sidebar/sidebar.component
   template: `
     <shared-navbar />
     <p-splitter
-      [panelSizes]="[15, 75]"
+      [panelSizes]="[15, 85]"
       [style]="{ height: '300px' }"
       styleClass="mb-5 min-h-screen"
+      [gutterSize]="0"
     >
       <ng-template pTemplate>
         <div class="col flex">
