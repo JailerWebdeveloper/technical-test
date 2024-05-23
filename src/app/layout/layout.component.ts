@@ -21,7 +21,7 @@ import { SidebarComponent } from '../shared/components/sidebar/sidebar.component
         </div>
       </ng-template>
       <ng-template pTemplate>
-        <div class="col flex align-items-center justify-content-center">
+        <div class="col">
           <router-outlet />
         </div>
       </ng-template>
